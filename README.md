@@ -16,7 +16,7 @@ Voor Darice gaat er enorm veel nuance verloren tijdens het kijken naar een film 
 
 # Prototype
 
-[Live prototype](https://mbergevoet.github.io/human-centered-design-2021/)
+[Live prototype](https://mbergevoet.github.io/closed-captions/)
 
 # Design principles en uitleg van de oplossing
 
@@ -42,7 +42,9 @@ Darice de Cuba is op latere leeftijd doof geworden. Ze werd ziek en gebruikte me
 
 ## De herkansings oplossing
 
-Om te beginnen heb ik een hele andere scene genomen om spanning over te brengen. De vorige uit Inception was vrij saai met voornamelijk dialoog en hier en daar wat geluidjes. Daarom heb ik het nu helemaal over een andere boeg gegooit. Ik heb een fragment uit de openings scene van _A Quite Place_ genomen ([film fragment](https://youtu.be/T_FdjXqSZlc)). In deze film is al nauwelijks geluid aanwezig omdat het namelijk gaat over een post apocalypische wereld waarin aliëns op aarde zijn geland die extreem goed kunnen horen. Die komen op geluid af en doden de mensen die geluid maken. De film volgt een gezin dat weet te overleven in deze wereld door niet of nauwelijks te praten en voornamelijk gebruik te maken van gebarentaal omdat ze een dove dochter hebben. Daarom gaat veel van deze film over geluid en hoe vet is het dan om dat te kunnen vormgeven aan de hand van de case van Darice.
+![Herkansings oplossing](https://i.imgur.com/o52fdy5.png)
+
+Om te beginnen heb ik een hele andere scene genomen om spanning over te brengen. De vorige uit Inception was vrij saai met voornamelijk dialoog en hier en daar wat geluidjes. Daarom heb ik het nu helemaal over een andere boeg gegooit. Ik heb een fragment uit de openings scene van **_A Quite Place_** genomen ([film fragment](https://youtu.be/T_FdjXqSZlc)). In deze film is al nauwelijks geluid aanwezig omdat het namelijk gaat over een post apocalypische wereld waarin aliëns op aarde zijn geland die extreem goed kunnen horen. Die komen op geluid af en doden de mensen die geluid maken. De film volgt een gezin dat weet te overleven in deze wereld door niet of nauwelijks te praten en voornamelijk gebruik te maken van gebarentaal omdat ze een dove dochter hebben. Daarom gaat veel van deze film over geluid en hoe vet is het dan om dat te kunnen vormgeven aan de hand van de case van Darice.
 
 **Add Nonsense**
 Het enige dat ik heb meegenomen van het oude concept is de equilizer. Maar deze heb ik nu over de hele breedte van het scherm gezet aan de onderkant zodat hij beter zichtbaar is en hopelijk ook meer impact heeft op het overbrengen van spanning en geluiden.
@@ -50,7 +52,7 @@ Het enige dat ik heb meegenomen van het oude concept is de equilizer. Maar deze 
 Toen ging ik denken, hoe kan ik spanning of suspense overbrengen zonder geluid dus. Ik moest denken aan wat ze in films wel vaker doen. Als er iets groots komt aangelopen gaat de grond trillen en dat wordt op de kijker overgebracht als een schuddend beeld. Daarom heb ik in het gedeelte waar echt veel spanning is het beeld laten trillen. Dit heb ik wel gedaan in After Effects in de video zelf dus maar het werkt fantastisch.
  
 **Ignore conventions**
-Natuurlijk heb ik in deze versie captions gemaakt. Maar dit keer niet met WEBVTT omdat het toch een aantal ristricties heeft. Het is heel lastig om verschillende fonts en klueren te geven aan bepaalde captions. Daarom heb ik de conventies genegeerd en JavaScript gebruikt (en dan specifiek de functie `setTimeout()`) om de tekst op het juiste moment op het beeld te krijgen. 
+Natuurlijk heb ik in deze versie captions gemaakt. Maar dit keer niet met WEBVTT omdat het toch een aantal ristricties heeft. Het is heel lastig om verschillende fonts en klueren te geven aan bepaalde captions. Daarom heb ik de conventies genegeerd en JavaScript gebruikt (en dan specifiek de functie `setTimeout()` om de tekst op het juiste moment op het beeld te krijgen. 
 
 Daarnaast heb ik ook zogoed mogelijk geluid in tekst om te zetten. Dit blijft subjectief en heel lastig om te doen omdat niet elk geluid een klank geeft die je met het alfabet kunt maken. Want alleen maar standaard beschrijvingen van geluiden is ook maar saai en zo volgens de regels. Ik hoop toch dat het weer dat extra stapje dichter bij een leuke en interessante kijk ervaring.
 

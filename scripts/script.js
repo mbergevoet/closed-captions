@@ -8,6 +8,7 @@ const music4 = document.querySelector(".music4");
 const music5 = document.querySelector(".music5");
 const music6 = document.querySelector(".music6");
 const music7 = document.querySelector(".music7");
+const music8 = document.querySelector(".music8")
 
 const sound1 = document.querySelector(".sound1");
 const sound2 = document.querySelector(".sound2");
@@ -173,6 +174,12 @@ videoPlayer.addEventListener('play', (event) => {
         music3.classList.remove("visible")
         music4.classList.add("visible")
     }, 55800);
+    setTimeout(() => {
+        sound25.classList.add("visible")
+    }, 58000)
+    setTimeout(() => {
+        sound25.classList.remove("visible")
+    }, 61000)
     setTimeout(() => {
         sound23.classList.remove("visible")
         sound24.classList.add("visible")

@@ -45,15 +45,14 @@ table {
 header h1 {
 	font-size: 3em;
 	font-weight: bold;
-	font-family: 'Jost', sans-serif;
-	/* color: var(--red); */
 	margin: 2%;
+	font-family: sans-serif;
 }
 
 p {
 	margin: 2%;
 	font-size: 1.2em;
-	font-family: 'Jost', sans-serif;
+	font-family: sans-serif;
 }
 
 #videoContainer {
@@ -71,7 +70,6 @@ p {
 	width: 80%;
 }
 
-
 .music, .soundRowOne, .soundRowTwo {
 	display: none;
 	position: absolute;
@@ -88,26 +86,53 @@ p {
 }
 
 .soundRowOne {
-	padding: 0.2em;
+	padding: 0.3em;
 	bottom: 8vh;
 	text-align: center;
 	font-size: 2em;
 }
 
 .soundRowTwo {
-	padding: 0.2em;
+	padding: 0.3em;
 	bottom: 13vh;
 	text-align: center;
 	font-size: 2em;
 }
 
-.sound6, .sound7, .sound8, .sound9, .sound10, .sound11, .sound38, .sound40, .sound46, .sound47 {
-	color: black;
+.sound1, .sound3, .sound12, .sound14, .sound16, .sound20, .sound21, .sound22, .sound23, .sound25, .sound26, .sound27, .sound28, .sound29, .sound30, .sound32, .sound35, .sound37, .sound39, .sound42, .sound44, .sound45, .sound48 {
+	font-family: 'Roboto Mono', monospace;
+}
+
+.sound2, .sound4, .sound13, .sound15, .sound17, .sound18, .sound19, .sound24, .sound36 {
+	font-weight: bold;
+}
+
+.sound17, .sound18, .sound19 {
+	font-family: 'Akronim', cursive;
+	font-size: 2.6em;
+	letter-spacing: 5px;
+}
+
+.sound6, .sound7, .sound8, .sound9, .sound10, .sound11 {
+	/* color: black; */
 	font-family: 'Permanent Marker', cursive;
 }
 
+.sound38, .sound40, .sound46, .sound47 {
+	font-family: 'Permanent Marker', cursive;
+}
+
+.sound46 {
+	font-size: 3em;
+}
+
 .sound47 {
+	font-size: 3em;
 	color: red;
+}
+
+.sound29, .sound32 {
+	background: #ffffff9a
 }
 
 .sound10, .sound11 {
@@ -115,6 +140,7 @@ p {
 }
 .sound31, .sound33, .sound34, .sound41, .sound43 {
 	font-family: 'Press Start 2P', cursive;
+	font-size: 1.5em;
 }
 
 .visible {
