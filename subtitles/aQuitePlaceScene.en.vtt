@@ -1,0 +1,88 @@
+WEBVTT
+
+STYLE
+::cue {
+  width: 50%;
+  color: white;
+  padding 10px;
+}
+
+STYLE
+::cue(c.music) {
+    font-weight: bold
+}
+
+00:00:00.000 --> 00:00:11.500 position:10% 
+<c.music>🎵Music with an ominous vibe🎵</c>
+
+00:00:24.000 --> 00:00:25.000 line:85%
+The spring of battery compartment pops
+
+00:00:28.000 --> 00:00:31.000 line:85%
+Batteries and shuttle on the counter
+
+00:00:11.500 --> 00:00:31.000 position:10% 
+<c.music>🎵Music intesifies🎵</c>
+
+00:01:01.000 --> 00:01:55.000 position:10% 
+<c.music>🎵Sad and ominous piano music🎵</c>
+
+00:01:09.000 --> 00:01:20.700 line:85%
+Wind blowing through the street and trees
+
+00:01:09.000 --> 00:01:20.700 position:90% 
+Newspaper flapping in the wind
+
+00:01:27.000 --> 00:01:29.000 line:85%
+Hand touching and moving the shuttle
+
+00:01:31.500 --> 00:01:32.500 line:85%
+Shuttle pressed in hands
+
+00:01:52.500 --> 00:01:53.500 line:85%
+Grabbing batteries from counter 
+
+00:01:55.000 --> 00:02:27.000 position:10% 
+<c.music>🎵Music swells on🎵</c>
+
+00:02:11.500 --> 00:02:17.200 line:90%
+Crows calling
+
+00:02:12.500 --> 00:02:13.000 line:80%
+Ka 
+
+00:02:12.800 --> 00:02:13.400 line:85%
+Ka Ka
+
+00:02:13.200 --> 00:02:14.000 line:75%
+Kaaa
+
+00:02:13.500 --> 00:02:14.700 line:80%
+Ka Ka Ka
+
+00:02:14.500 --> 00:02:15.700 line:85%
+Kaaaaw
+
+00:02:16.200 --> 00:02:17.200 line:80%
+Kaaaaw
+
+00:02:17.200 --> 00:02:25.450 line:85%
+Water flowing along the sand path
+
+00:02:25.450 --> 00:02:32.000 line:85%
+Wind blowing through the trees and leaves
+
+00:02:27.000 --> 00:02:32.000 position:10% 
+<c.music>🎵Music goes back to ominous piano🎵</c>
+
+00:02:32.000 --> 00:02:53.000 position:10% 
+<c.music>🎵Ominous piano🎵</c>
+
+00:02:33.000 --> 00:02:34.500
+Feet crounches on sand
+
+00:02:37.500 --> 00:02:39.000
+Feet crounches on sand
+
+00:02:40.500 --> 00:02:52.000
+Family's footsteps over the sand

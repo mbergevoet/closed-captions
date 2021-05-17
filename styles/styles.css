@@ -1,0 +1,122 @@
+/* Reset all styles */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong,sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Reset styles end */
+
+:root {
+	--primary: #000000;
+	--secondary: #ffffff;
+	--red: #EF2D2C;
+}
+
+header h1 {
+	font-size: 3em;
+	font-weight: bold;
+	font-family: 'Jost', sans-serif;
+	/* color: var(--red); */
+	margin: 2%;
+}
+
+p {
+	margin: 2%;
+	font-size: 1.2em;
+	font-family: 'Jost', sans-serif;
+}
+
+#videoContainer {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	background-color: var(--primary);
+	position: relative;
+	z-index: 1;
+	margin: 0 0 5%;
+}
+
+#videoContainer video {
+	width: 80%;
+}
+
+
+.music, .soundRowOne, .soundRowTwo {
+	display: none;
+	position: absolute;
+	font-family: Arial, sans-serif;
+	color: white;
+	background-color: #00000088;
+}
+
+.music {
+	font-family: 'Galada', cursive;
+	bottom: 3vh;
+	left: 9vw;
+	font-size: 2.2em;
+}
+
+.soundRowOne {
+	padding: 0.2em;
+	bottom: 8vh;
+	text-align: center;
+	font-size: 2em;
+}
+
+.soundRowTwo {
+	padding: 0.2em;
+	bottom: 13vh;
+	text-align: center;
+	font-size: 2em;
+}
+
+.sound6, .sound7, .sound8, .sound9, .sound10, .sound11, .sound38, .sound40, .sound46, .sound47 {
+	color: black;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.sound47 {
+	color: red;
+}
+
+.sound10, .sound11 {
+	font-size: 3em;
+}
+.sound31, .sound33, .sound34, .sound41, .sound43 {
+	font-family: 'Press Start 2P', cursive;
+}
+
+.visible {
+	display: block;
+}
