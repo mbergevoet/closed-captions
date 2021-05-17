@@ -52,7 +52,7 @@ Het enige dat ik heb meegenomen van het oude concept is de equilizer. Maar deze 
 Toen ging ik denken, hoe kan ik spanning of suspense overbrengen zonder geluid dus. Ik moest denken aan wat ze in films wel vaker doen. Als er iets groots komt aangelopen gaat de grond trillen en dat wordt op de kijker overgebracht als een schuddend beeld. Daarom heb ik in het gedeelte waar echt veel spanning is het beeld laten trillen. Dit heb ik wel gedaan in After Effects in de video zelf dus maar het werkt fantastisch.
  
 **Ignore conventions**
-Natuurlijk heb ik in deze versie captions gemaakt. Maar dit keer niet met WEBVTT omdat het toch een aantal ristricties heeft. Het is heel lastig om verschillende fonts en klueren te geven aan bepaalde captions. Daarom heb ik de conventies genegeerd en JavaScript gebruikt (en dan specifiek de functie `setTimeout()` om de tekst op het juiste moment op het beeld te krijgen. 
+Natuurlijk heb ik in deze versie captions gemaakt. Maar dit keer niet met WEBVTT omdat het toch een aantal ristricties heeft. Het is heel lastig om verschillende fonts en klueren te geven aan bepaalde captions. Daarom heb ik de conventies genegeerd en JavaScript gebruikt om de tekst op het juiste moment op het beeld te krijgen. De code er achter is best lelijk en bestaat veelal uit heel veel regels `document.querySelector` en de functie `setTimeout()` met een delay om de captions op het juiste moment op het scherm te krijgen.
 
 Daarnaast heb ik ook zogoed mogelijk geluid in tekst om te zetten. Dit blijft subjectief en heel lastig om te doen omdat niet elk geluid een klank geeft die je met het alfabet kunt maken. Want alleen maar standaard beschrijvingen van geluiden is ook maar saai en zo volgens de regels. Ik hoop toch dat het weer dat extra stapje dichter bij een leuke en interessante kijk ervaring.
 
@@ -60,7 +60,6 @@ Daarnaast heb ik ook zogoed mogelijk geluid in tekst om te zetten. Dit blijft su
 
 Als oplossing voor het probleem dat Darice heeft heb ik een uitgebreidere ervaring neer gezet met closed captions dan dat nu het geval is.
 
-<!-- Veranderen -->
 ![foto een](https://i.imgur.com/Wp2lcYw.png)
 
 Op de foto hierboven is te zien hoe mijn oplossing er nu uit ziet. Ook kan het zien op de link waar mijn prototype staat. 
@@ -77,7 +76,7 @@ Ten vijfde heb ik een equilizer toegevoegd rechts onder in het beeld. In het pro
 
 En als zesde ik heb geprobeerd om sarcasme over de brengen op verschillende manieren. Door tekst een kleur of cursive font te geven in de tests heb ik geprobeerd dat over te brengen. Maar volgens Darice werken die oplossingen niet zo goed. Ze raadde daarom aan om het in de geluids captions te zetten als een scarcastische toon met sterretjes. * Sarcastic tone *.
 
-# Tech achter de captions in het prototype
+# WebVTT
 
 Voor de captions heb ik het format WebVTT gebruikt. Dit is een tekst bestand waarin je kunt zetten welke ondertiteling wanneer in beeld moet komen. Dit plaats je in een `<track>` tag binnen een `<video>` tag zodat ze over de video worden geplaatst. De captions worden dan ook door de video player herkent en kunnen ze aan of uit gezet worden. Ook bied het wat stylings opties zoals de tekst links of rechts uitlijn en hoe groot de tekst moet zijn. Ook kun je specifieke onderdelen van een zin appart stylen door een soort HTML tag om die tekst te plaatsen. Zo heb ik dat gebruikt in mijn prototype om de personages een apparte kleur te geven. Je kunt ook in CSS de captions nog stijlen wat ik heb gedaan om de tekst grootte te veranderen. 
 
