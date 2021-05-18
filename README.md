@@ -40,23 +40,23 @@ Door soms onzinnige dingen of nonsense toe te voegen aan ontwerpen kun je komen 
 
 Darice de Cuba is op latere leeftijd doof geworden. Ze werd ziek en gebruikte medicijnen die het gehoor aantasten. Ze is nu 39 jaar oud en werd op 26 jarige leeftijd doof. Dit betekend dat ze geen gebarentaal kan maar een schrijftolk(of doventolk) heeft om haar te helpen met het gebrijpen van mensen. Ze is zelf ook ontwerper en developer en weet daarom veel van standaarden en design principles. Dat is wel erg voor mij als CMD student maar toch ook weer lastig juist omdat ze zo goed weet wat ze wil. 
 
-## De herkansings oplossing
+# De herkansings oplossing
 
 ![Herkansings oplossing](https://i.imgur.com/o52fdy5.png)
 
 Om te beginnen heb ik een hele andere scene genomen om spanning over te brengen. De vorige uit Inception was vrij saai met voornamelijk dialoog en hier en daar wat geluidjes. Daarom heb ik het nu helemaal over een andere boeg gegooit. Ik heb een fragment uit de openings scene van **_A Quite Place_** genomen ([film fragment](https://youtu.be/T_FdjXqSZlc)). In deze film is al nauwelijks geluid aanwezig omdat het namelijk gaat over een post apocalypische wereld waarin aliëns op aarde zijn geland die extreem goed kunnen horen. Die komen op geluid af en doden de mensen die geluid maken. De film volgt een gezin dat weet te overleven in deze wereld door niet of nauwelijks te praten en voornamelijk gebruik te maken van gebarentaal omdat ze een dove dochter hebben. Daarom gaat veel van deze film over geluid en hoe vet is het dan om dat te kunnen vormgeven aan de hand van de case van Darice.
 
-**Add Nonsense**
+**Add Nonsense** <br>
 Het enige dat ik heb meegenomen van het oude concept is de equilizer. Maar deze heb ik nu over de hele breedte van het scherm gezet aan de onderkant zodat hij beter zichtbaar is en hopelijk ook meer impact heeft op het overbrengen van spanning en geluiden.
 
 Toen ging ik denken, hoe kan ik spanning of suspense overbrengen zonder geluid dus. Ik moest denken aan wat ze in films wel vaker doen. Als er iets groots komt aangelopen gaat de grond trillen en dat wordt op de kijker overgebracht als een schuddend beeld. Daarom heb ik in het gedeelte waar echt veel spanning is het beeld laten trillen. Dit heb ik wel gedaan in After Effects in de video zelf dus maar het werkt fantastisch.
  
-**Ignore conventions**
+**Ignore conventions** <br>
 Natuurlijk heb ik in deze versie captions gemaakt. Maar dit keer niet met WEBVTT omdat het toch een aantal ristricties heeft. Het is heel lastig om verschillende fonts en klueren te geven aan bepaalde captions. Daarom heb ik de conventies genegeerd en JavaScript gebruikt om de tekst op het juiste moment op het beeld te krijgen. De code er achter is best lelijk en bestaat veelal uit heel veel regels `document.querySelector` en de functie `setTimeout()` met een delay om de captions op het juiste moment op het scherm te krijgen.
 
 Daarnaast heb ik ook zogoed mogelijk geluid in tekst om te zetten. Dit blijft subjectief en heel lastig om te doen omdat niet elk geluid een klank geeft die je met het alfabet kunt maken. Want alleen maar standaard beschrijvingen van geluiden is ook maar saai en zo volgens de regels. Ik hoop toch dat het weer dat extra stapje dichter bij een leuke en interessante kijk ervaring.
 
-## De vorige oplossing
+# De vorige oplossing
 
 Als oplossing voor het probleem dat Darice heeft heb ik een uitgebreidere ervaring neer gezet met closed captions dan dat nu het geval is.
 
@@ -76,7 +76,7 @@ Ten vijfde heb ik een equilizer toegevoegd rechts onder in het beeld. In het pro
 
 En als zesde ik heb geprobeerd om sarcasme over de brengen op verschillende manieren. Door tekst een kleur of cursive font te geven in de tests heb ik geprobeerd dat over te brengen. Maar volgens Darice werken die oplossingen niet zo goed. Ze raadde daarom aan om het in de geluids captions te zetten als een scarcastische toon met sterretjes. * Sarcastic tone *.
 
-# WebVTT
+## WebVTT
 
 Voor de captions heb ik het format WebVTT gebruikt. Dit is een tekst bestand waarin je kunt zetten welke ondertiteling wanneer in beeld moet komen. Dit plaats je in een `<track>` tag binnen een `<video>` tag zodat ze over de video worden geplaatst. De captions worden dan ook door de video player herkent en kunnen ze aan of uit gezet worden. Ook bied het wat stylings opties zoals de tekst links of rechts uitlijn en hoe groot de tekst moet zijn. Ook kun je specifieke onderdelen van een zin appart stylen door een soort HTML tag om die tekst te plaatsen. Zo heb ik dat gebruikt in mijn prototype om de personages een apparte kleur te geven. Je kunt ook in CSS de captions nog stijlen wat ik heb gedaan om de tekst grootte te veranderen. 
 
@@ -95,7 +95,8 @@ Ik heb geleerd hoe ik kan testen met een doof persoon. Aan de ene kant viel het 
 Ik heb geleerd dat zelf een persoon die goed weet wat ze wil dat toch niet altijd weet. Zoals ik al in de inleiding zei weet ze veel van ontwerp en standaarden af maar gelukkig heb ik een klein dingetje gevonden wat ze zelf niet verwachtte, de equilizer. Dus gekke en out of the box dingen kunnen juist heel goed werken.
 
 ## Hoe vond ik het vak
-Ik vond het erg leuk om een oplossing te vinden voor problemen die ik zelf helemaal niet ervaar. Het is heel uniek om een kijkje te mogen nemen in het leven van iemand met een fysieke beperking. En ik vond het ook weer eens leuk om te itereren en te testen om tot een oplossing te komen zoals in het eerste en tweede jaar vooral gewend was.  
+Ik vond het erg leuk om een oplossing te vinden voor problemen die ik zelf helemaal niet ervaar. Het is heel uniek om een kijkje te mogen nemen in het leven van iemand met een fysieke beperking. Het is heer waardevol om die ervaring te hebben voor als ik later vaker moet testen met mensen of mensen met een beperking.
+Ik vond het ook weer erg leuk om te itereren en te testen om tot een oplossing te komen zoals ik in het eerste en tweede jaar vooral gewend was. Dat heb ik toch wel een beetje gemist in dit derde jaar.
 
 # Test verslagen
 
